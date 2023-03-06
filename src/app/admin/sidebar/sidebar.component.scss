@@ -1,0 +1,119 @@
+.top {
+    text-align: center;
+
+    img {
+        height: 100%;
+        width: 180px;
+    }
+}
+
+
+.user {
+    text-align: center;
+    margin-bottom: 10px;
+
+    img {
+        margin-top: 15px;
+        width: 80px;
+        height: 80px;
+        border-radius: 30px;
+    }
+
+    h2 {
+        margin-bottom: auto;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    h3 {
+
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 16px;
+    }
+}
+
+.box {
+    justify-content: space-between;
+    text-align: center !important;
+
+    .mat-icon {
+        margin-left: 8px;
+        margin-right: 8px;
+        color: #555555;
+    }
+
+    .mat-button {
+        margin-left: 20px;
+        margin-right: 20px;
+        background-color: #FFFFFF !important;
+        border: none;
+    }
+}
+
+.menu-head {
+    color: gray;
+    margin-top: 50px;
+    text-transform: uppercase;
+    font-weight: 900;
+    margin-left: 40px;
+    margin-bottom: 20px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.menu-item {
+    
+    .menu-button {
+        display: block;
+        width: 100%;
+        position: relative;
+        display: flex;
+        padding-left: 40px;
+        margin-bottom: 10px;
+        align-items: center;
+        justify-content: left;
+    }
+
+    .menu-button span {
+        margin-left: 15px;
+        color: gray;
+        width: 139px;
+        height: 28px;
+
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 28px;
+    }
+
+    .mat-icon {        
+        color: #555555;
+        border-color: aqua;
+    }
+}
+
+.chip {
+    background-color: #0D6EFD;
+    padding: 4px;
+    border-radius: 10px;
+    color: white !important;
+}
+
+.chip-mail {
+    background-color: #FF9800;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 100px;
+    color: white !important;
+}

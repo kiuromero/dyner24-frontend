@@ -1,0 +1,112 @@
+<div class="head">
+    <h1>Hola, Emily Smith.</h1>
+    <h3>Dashboard D24</h3>
+</div>
+<div class="grid-container">
+    <div class="row">
+
+        <!-- Indicadores -->
+        <div class="col">
+            <div class="row">
+                <div class="col">
+                    <mat-card class="card-indicadores">
+                        <mat-card-header>
+                            <mat-card-title-group>
+                                <mat-card-title class="card-title">Nuevos clientes</mat-card-title>
+                                <mat-icon class="icon-orange">group</mat-icon>
+                                <mat-card-title class="title-number">456</mat-card-title>
+                            </mat-card-title-group>
+                        </mat-card-header>
+                        <mat-card-content>
+                            <div class="content-card">
+                                <mat-icon class="icon-green">trending_up</mat-icon>
+                                <span class="text-green">10,32%</span>
+                                <span class="text-gray">Semana anterior</span>
+                            </div>
+                        </mat-card-content>
+                    </mat-card>
+                </div>
+                <div class="col">
+                    <mat-card class="card-indicadores">
+                        <mat-card-header>
+                            <mat-card-title-group>
+                                <mat-card-title class="card-title">Ingresos</mat-card-title>
+                                <mat-icon class="icon-blue">headset_mic</mat-icon>
+                                <mat-card-title class="title-number">3,423</mat-card-title>
+                            </mat-card-title-group>
+                        </mat-card-header>
+                        <mat-card-content>
+                            <div class="content-card">
+                                <mat-icon class="icon-green">trending_up</mat-icon>
+                                <span class="text-green">21,19%</span>
+                                <span class="text-gray">Semana anterior</span>
+                            </div>
+                        </mat-card-content>
+                    </mat-card>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <mat-card class="card-indicadores">
+                        <mat-card-header>
+                            <mat-card-title-group>
+                                <mat-card-title class="card-title">Pedidos</mat-card-title>
+                                <mat-icon class="icon-purple">add_shopping_cart</mat-icon>
+                                <mat-card-title class="title-number">103</mat-card-title>
+                            </mat-card-title-group>
+                        </mat-card-header>
+                        <mat-card-content>
+                            <div class="content-card">
+                                <mat-icon class="icon-red">trending_down</mat-icon>
+                                <span class="text-red">-10,64%</span>
+                                <span class="text-gray">Semana anterior</span>
+                            </div>
+                        </mat-card-content>
+                    </mat-card>
+                </div>
+                <div class="col">
+                    <mat-card class="card-indicadores">
+                        <mat-card-header>
+                            <mat-card-title-group>
+                                <mat-card-title class="card-title">Ganancia</mat-card-title>
+                                <mat-icon class="icon-green-shopping-cart">attach_money</mat-icon>
+                                <mat-card-title class="title-number">$2,352</mat-card-title>
+                            </mat-card-title-group>
+                        </mat-card-header>
+                        <mat-card-content>
+                            <div class="content-card">
+                                <mat-icon class="icon-red">trending_down</mat-icon>
+                                <span class="text-red">-4,27%</span>
+                                <span class="text-gray">Semana anterior</span>
+                            </div>
+                        </mat-card-content>
+                    </mat-card>
+                </div>
+            </div>
+        </div>
+
+        <!-- Gráfico de reservas diarias -->
+        <div class="col daily-reserve">
+            <mat-card class="example-card">
+                <mat-card-header>
+                    <mat-card-title-group>
+                        <mat-card-title class="card-title">Gráfico de reservas diarias</mat-card-title>
+                    </mat-card-title-group>
+                </mat-card-header>
+                <mat-card-content>
+                    <div>
+                        <div class="icon-char">
+                            <mat-icon>menu</mat-icon>
+                            <mat-icon>home</mat-icon>
+                            <mat-icon>pan_tool</mat-icon>
+                            <mat-icon>zoom_in</mat-icon>
+                            <mat-icon>add_circle</mat-icon>
+                            <mat-icon>do_not_disturb_on</mat-icon>
+                        </div>
+                        <app-daily-reserve></app-daily-reserve>
+                    </div>
+                </mat-card-content>
+            </mat-card>
+        </div>
+    </div>
+</div>
